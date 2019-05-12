@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание № 2</title>
+    <script defer src="index.js"></script>
+    <style>
+        input, button {
+            display: block;
+        }
+
+        input {
+            margin-top: 2px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 2px 10px;
+        }
+
+        form {
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        body {
+            text-align: center;
+            white-space: nowrap;
+            margin: 0;
+        }
+
+        body:before {
+            height: 100vh;
+            content: ' ';
+            vertical-align: middle;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="position">
+            Исходное положение:
+        </label>
+        <input type="text" id="position">
+        <button type="button" id="button">
+            Ок
+        </button>
+    </form>
+</body>
+</html>
